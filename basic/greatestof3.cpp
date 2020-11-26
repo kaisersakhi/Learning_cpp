@@ -24,7 +24,7 @@ int main(){
 
     }else{
 
-        std::cout <<" Those There Imposters are the same ;)" << std::endl;
+        std::cout <<" Those 3 Imposters are the same ;)" << std::endl;
     }
     return 0;
 }
