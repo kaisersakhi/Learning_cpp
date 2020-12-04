@@ -9,9 +9,11 @@
 long int fact(int n);
 int combination(int n , int r);
 
-//this is a simple program 
-// i got the idea from this video https://www.youtube.com/watch?v=MDaHBKx1IyE
-
+// this algorithm is based on bi-nomail theorm 
+// this just genrates the bi-nomail coeffieciets and nothin else :)
+// this is simple just look at the patterns.cpp  there you'll see paramid function this is same as that
+// you should know recursion by heart or if you dont use itreative loop to genrate factorial of n
+// combination is a required one :)
 
 int main(){
 
@@ -30,6 +32,8 @@ int main(){
         }
 
         for (k = 0 ; k <= i ; ++k){
+            //take i as n and k as r , so
+            //its iCk -> nCr
            std::cout<<"  "<<combination(i, k)<< "  ";
         //    std::cout<< i <<" * "<<k;
         }
@@ -39,6 +43,8 @@ int main(){
 }
 
 // this is a recursive function 
+// this function will return the factorail of # n 
+// example fact(5); this will reutrn (5*4*3*2*1) => 120
 long int fact(int n){
     if (n == 0)
         return 1;
@@ -46,6 +52,7 @@ long int fact(int n){
     return n * fact(n-1);
 }
 
+// this fucntion implements the cobination formula from good old math 
 int combination(int n , int r){
 
     long int denm;
