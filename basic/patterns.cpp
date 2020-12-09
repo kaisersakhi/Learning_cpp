@@ -10,7 +10,7 @@
 void rightTriangle(int);
 void paramid(int);
 void upSideDownTriangle(int);
-
+void crossDiTriangle(int);
 /*
 
     i will be adding more patterns if i encounter any
@@ -20,11 +20,20 @@ int main(int agc , char * args[]){
 
     int rowSize = 5;
     //paramid(rowSize);
-    upSideDownTriangle(rowSize);
+    // upSideDownTriangle(rowSize);
+    // rightTriangle(rowSize);
+    crossDiTriangle(rowSize);
+
     return 0;
 }
 
 void rightTriangle(int row_size){
+    /*
+        *
+        *  *
+        *  *  * 
+        *  *  *  *
+    */
     int i = 0;
     int j = 0;
 
@@ -58,6 +67,7 @@ void paramid(int row_size){
         {
             //this star will print after 'j' spaces in each i , 'k' times
             std::cout<<"  * ";
+            
         }
         //this is jsut new line char
         std::cout<<std::endl;
@@ -75,4 +85,29 @@ void upSideDownTriangle(int row_size){
         std::cout<<std::endl;
     }
     
+}
+
+void crossDiTriangle(int rs){
+    /*
+                *
+             *  *
+          *  *  * 
+        *  * *  *
+    */
+
+   int i = 0,j;
+   //limit for diagonal elements 
+   int diLim = rs-1;
+   for ( i ; i < rs ; ++i){
+       for ( j = 0; j < rs; j++)
+       {
+           if (i+j > diLim)
+                std::cout<<" * ";
+            else
+                std::cout<<"   ";
+            
+       }
+       std::cout<<std::endl;
+       
+   }
 }
