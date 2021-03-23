@@ -3,19 +3,29 @@ private:
     double xlen;
     double yhig;
     int *weight;
+    bool isWeightOwn;
 public:
 
-    // this is a constructor 
+    Rectangle(){
+        xlen = 0;
+        yhig = 0;
+        weight = 0;
+        isWeightOwn = false;
+    }
+
+    // this isWeightOwn a constructor 
     Rectangle(double x, double y){
         xlen = x;
         yhig = y;
         weight = 0;
+        isWeightOwn = false;
     }
 
     Rectangle(){
         xlen = 0;
         yhig = 0;
         weight = 0;
+        isWeightOwn = false;
     }
 
      Rectangle(Rectangle &r){
@@ -23,8 +33,8 @@ public:
          yhig = r.yhig;
          weight= new int;
          *weight= *r.getWeight();
-
-         printf("%i",getWeight()[3]);
+        isWeightOwn = true;
+        //  printf("%i",getWeight()[3]);
      }
 
     double area(){
@@ -37,6 +47,7 @@ public:
         return yhig;
     }
     void setWeight(int *c){
+        isWeightOwn = true;
         weight = c;
     }
 
@@ -47,6 +58,7 @@ public:
    
 
     ~Rectangle(){
-        delete weight;
+        if (isWeightOwn)
+            delete weight;
     }
 };

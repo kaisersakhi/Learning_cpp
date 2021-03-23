@@ -7,27 +7,7 @@
 
 // PROGRAM : to desmonstrate, object creation in cpp, on stack and heap
 #include<iostream>
-
-class Rectangle{
-private:
-    double xlen;
-    double yhig;
-public:
-
-    Rectangle(double x, double y){
-        xlen = x;
-        yhig = y;
-    }
-    double area(){
-        return xlen * yhig;
-    }
-    double getLength(){
-        return xlen;
-    } 
-    double getHight(){
-        return yhig;
-    }
-};
+#include "rectangle.h"
 
 
 int main(){

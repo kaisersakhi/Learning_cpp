@@ -1,0 +1,15 @@
+the programs specifed for this week, i have already done those in different weeks
+
+Q1. Write a program to demonstrate the array indexing using pointers.
+ANSWER : week 5 problem 4
+Q2. Write a program to pass a pointer to a structure as a parameter to a function and return back a pointer
+to structure to the calling function after modifying the members of the structure?
+ANSWER : WEEK 5 PROBLEM 4
+Q3. Write a program to demonstrate the use of pointer to a pointer.
+ANSWER :WEEK 5 PROBLEM 4
+Q4. Write a program to demonstrate the use of pointer to a function.
+ANSWER : ../../BASICS/POINTER.CPP
+Q5. Write a program to demonstrate the swapping the fields of two structures using pointers?
+ANSWER: WEEK 5 PROBLEM 4;
+
+almost all programs are in the w5p4.c 
