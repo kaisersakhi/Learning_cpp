@@ -24,17 +24,18 @@ struct sComplex{
         std::cout<<this->real<<((this->img < 0)? "" : "+")<<this->img<<"i\n";
     }
 
-    sComplex(){
-        std::cout<<"Constructor Called!\n";
-        this->real = 0;
-        this->img = 0;
-    }
-
+    sComplex();
 private:
     int real;
     int img;
 
 };
+ sComplex::sComplex(){
+        std::cout<<"Constructor Called!\n";
+        this->real = 0;
+        this->img = 0;
+}
+
 class Complex{
     //by defualt the acces is private
 public:
@@ -49,11 +50,8 @@ public:
         std::cout<<this->real<<((this->img < 0)? "" : "+")<<this->img<<"i\n";
     }
 
-    Complex(){
-        std::cout<<"Constructor Called!\n";
-        this->real = 0;
-        this->img = 0;
-    }
+    Complex();
+    
 
 private:
     int real;
@@ -61,6 +59,11 @@ private:
 
 };
 
+Complex::Complex(){
+        std::cout<<"Constructor Called!\n";
+        this->real = 0;
+        this->img = 0;
+}
 
 int main(){
     sComplex c;
