@@ -3,7 +3,7 @@
     Author : KaiserSakhi
 */
 
-// ENDPOINT = https://github.com/kaisersakhi/learning_cpp/basic/primeNumber.cpp
+// ENDPOINT = https://github.com/kaisersakhi/Learning_cpp/blob/main/basic/primeNumber.cpp
 
 #include<iostream>
 
