@@ -1,0 +1,21 @@
+
+Kaiser_Sakhi 55 13750.5
+Tahir 60 1430.83
+Abdul_Rehman 30 55000.6
+Qais_ul_haq 22 2530
+Nayeem_Ahmad 25 2200
+Abdul_Qadir 20 1320
+Yasir 34 44000
+Ibrahim 30 25300
+Saleem 23 37950
+Ismaeil 33 37406.5
+Kaiser_Sakhi 55 13750.5
+Tahir 60 1430.83
+Abdul_Rehman 30 55000.6
+Qais_ul_haq 22 2530
+Nayeem_Ahmad 25 2200
+Abdul_Qadir 20 1320
+Yasir 34 44000
+Ibrahim 30 25300
+Saleem 23 37950
+Ismaeil 33 37406.5

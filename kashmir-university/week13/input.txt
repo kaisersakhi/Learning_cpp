@@ -1,0 +1,10 @@
+Kaiser_Sakhi 55 12500.50
+Tahir 60 1300.75
+Abdul_Rehman 30 50000.50
+Qais_ul_haq 22 2300
+Nayeem_Ahmad 25 2000
+Abdul_Qadir 20 1200
+Yasir 34 40000
+Ibrahim 30 23000
+Saleem 23 34500
+Ismaeil 33 34005.89
